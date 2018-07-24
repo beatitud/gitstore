@@ -11,9 +11,9 @@
   access: {
     get: "all",
     post: "all",
-    "patch|put": function(owner, user) {
-      return user.admin || user.id === owner.id;
-    },
+    // "patch|put": function(owner, user) {
+    //   return user.admin || user.id === owner.id;
+    // },
   },
   // middleware: {
   //   get: function(owner) {
