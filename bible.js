@@ -6,7 +6,7 @@
       id: {type: "string"},
       value: {type: "string"},
       introductoryVersion: {type: "string"},
-      endingVersion: {type: "string"},
+      endingVersion: {type: "string"}
     }
   },
   access: {
