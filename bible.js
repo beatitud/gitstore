@@ -3,7 +3,6 @@
     type: "object",
     additionalProperties: false,
     properties: {
-      id: {type: "string"},
       value: {type: "string"},
       introductoryVersion: {type: "string"},
       endingVersion: {type: "string"}
