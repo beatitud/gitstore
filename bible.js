@@ -3,8 +3,10 @@
     type: "object",
     additionalProperties: false,
     properties: {
-      name: {type: "string"},
-      password: {type: "string"},
+      id: {type: "string"},
+      value: {type: "string"},
+      introductoryVersion: {type: "string"},
+      endingVersion: {type: "string"},
     }
   },
   access: {
